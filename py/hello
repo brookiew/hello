@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import hello as h 
+
+if __name__== '__main__':
+    import hello as h
+    
+    name, option = h.parse_args() 
+    message =  'Hello ' + name + '!' 
+
+    try:
+        if option == "-s": 
+            h.print_stripes(message)
+        elif option == "-m":
+            h.print_multi(message)
+        elif option == "-c": 
+            h.print color(message) 
+        elif option == "-h":
+            print_usage()
+        else:
+            h.print_plain(message)
+    except KeyboardInterrupt:
+        exit() 
