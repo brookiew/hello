@@ -9,7 +9,11 @@ var printHello = function () {
 }
 
 var printColors = function(){
-  console(c.rc) + ('Hello universe");
+  console.log(c.rc + "Hello universe");
 }
 
-var print
+var printOrange = function() {
+  console.log(c.multi("Hello Universe")
+}
+
+
