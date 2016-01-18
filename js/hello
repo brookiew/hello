@@ -14,6 +14,7 @@ var printColors = function(){
 
 var printOrange = function() {
   console.log(c.multi("Hello Universe")
-}
+  while (true){
+  printPlain();
 
 
