@@ -8,13 +8,19 @@ var printHello = function () {
   console.log("Hello World");
 }
 
-var printColors = function(){
+var printColors = function() {
   console.log(c.rc + "Hello universe");
 }
 
-var printOrange = function() {
+var printRed = function() {
   console.log(c.multi("Hello Universe")
-  while (true){
-  printPlain();
+}
+
+var printRed = function(waffles) {
+  console.log(c.red + waffles + c.x);
+
+}
+
+printRed("waffles");
 
 
