@@ -4,16 +4,16 @@
 
 var c = require('skilstak-colors');
 
-var printHello = function () {
+var printHello = function (name) {
   console.log("Hello Waffles");
 }
 
 var printColors = function() {
-  console.log(c.rc + "Hello universe");
+  console.log(c.rc + "Hello Waffles");
 }
 
 var printRed = function() {
-  console.log(c.multi("Hello Universe")
+  console.log(c.multi("Hello Waffles")
 }
 
 var printRed = function(waffles) {
