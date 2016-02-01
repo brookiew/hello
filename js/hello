@@ -13,15 +13,18 @@ var printForever = function() {
   console.log(c.rc + "Hello Waffles");
 }
 
-var printRed = function() {
-  console.log(c.multi("Hello Waffles")
+var printRed = function(message) {
+  console.log(c.clear + c.r + "Hello Waffles" + message + c.reset)
 }
 
-var printColored = function(waffles) {
-  console.log(c.red + waffles + c.x);
-
+var printMulti = function (message) {
+  while (true) {
+    console.log(c.clear + c.multi("Hello Waffles" + message) + c.reset)
+  }
 }
 
-printRed("waffles");
+var name = process.argv[2];
+
+printMulti(name);
 
 
