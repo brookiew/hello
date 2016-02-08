@@ -32,4 +32,9 @@ printMulti(name);
 var name = "Waffles"
 var option = "-m";
 
+if (process.argv[2] ==="-") {
+  option = process.argv[2];
+
+
+
 
