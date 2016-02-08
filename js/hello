@@ -27,4 +27,9 @@ var name = process.argv[2];
 
 printMulti(name);
 
+//defaults
+
+var name = "Waffles"
+var option = "-m";
+
 
